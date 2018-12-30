@@ -138,6 +138,7 @@ _client.once('ready', async function () {
 
 })
 
+/*
 _client.on('guildCreate', async function name(guild) {
     _logger.info(`Invited to guild: ${guild.name}`)
     guild.systemChannel.send({
@@ -166,6 +167,7 @@ _client.on('guildCreate', async function name(guild) {
         }
     }).catch(error => _logger.warn(`Could not send greeting to #${guild.defaultChannel.name} in ${guild.name}: ${error.message}`))
 })
+*/
 
 _client.on('guildDelete', async function (guild) {
     _logger.info(`Kicked from guild ${guild.name}`)
