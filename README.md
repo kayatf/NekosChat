@@ -4,3 +4,6 @@ Discord chatbot which allows you to communicate with the [nekos.life](https://ne
 
 # System requirements
 Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://npmjs.org)
+
+# Installation process
+  - [Clone](https://github.com/syntax-yt/NekosChat.git) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
