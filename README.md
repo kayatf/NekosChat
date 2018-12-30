@@ -6,7 +6,7 @@ Discord chatbot which allows you to communicate with the [nekos.life](https://ne
 Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://npmjs.org)
 
 # Installation process
-  - [Clone](https://github.com/syntax-yt/NekosChat.git) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
+  - [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
   - Open the `config.properties` and paste in some bot-token (create one at http://discord.com/developers/applications)
   - Install all needed dependencies by typing `npm install`, to start the bot you just need to type `npm start`
 
