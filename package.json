@@ -1,0 +1,31 @@
+{
+  "name": "nekos-chat",
+  "version": "0.0.1",
+  "description": "Allows you to communicate with real nekos.life nekos!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syntax-yt/NekosChat.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Anime",
+    "Neko",
+    "Chat"
+  ],
+  "author": "Daniel Riegler",
+  "license": "MIT",
+  "dependencies": {
+    "async-ratelimiter": "^1.1.3",
+    "discord.js": "^11.4.2",
+    "ioredis": "^4.3.0",
+    "nekos.life": "^2.0.2",
+    "properties": "^1.2.1",
+    "sqlite-async": "^1.0.11",
+    "winston": "^3.1.0"
+  }
+}
