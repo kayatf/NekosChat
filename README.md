@@ -9,3 +9,6 @@ Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://n
   - [Clone](https://github.com/syntax-yt/NekosChat.git) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
   - Open the `config.properties` and paste in some bot-token (create one at http://discord.com/developers/applications)
   - Install all needed dependencies by typing `npm install`, to start the bot you just need to type `npm start`
+
+
+Licensed under the [MIT](https://github.com/syntax-yt/NekosChat/blob/master/LICENSE) license
