@@ -115,12 +115,12 @@ async function start() {
 
 function isBotOwner(user) {
     return new Promise(function (fulfill, reject) {
-        _client.fetchApplication().then(application => {
-            fulfill(application.owner.id === user.id)
-        }).catch(error => {
-            _logger.debug(`Could not fetch bot-owner status of ${user.tag}: ${error.message}`)
-            fulfill(false)
-        })
+        _client.fetchApplication()
+            .then(application => fulfill(application.owner.id === user.id))
+            .catch(error => {
+                _logger.debug(`Could not fetch bot-owner status of ${user.tag}: ${error.message}`)
+                fulfill(false)
+            })
     })
 }
 
@@ -138,8 +138,7 @@ _client.once('ready', async function () {
 
 })
 
-/*
-_client.on('guildCreate', async function name(guild) {
+_client.on('guildCreate', async function (guild) {
     _logger.info(`Invited to guild: ${guild.name}`)
     guild.systemChannel.send({
         embed: {
@@ -167,7 +166,6 @@ _client.on('guildCreate', async function name(guild) {
         }
     }).catch(error => _logger.warn(`Could not send greeting to #${guild.defaultChannel.name} in ${guild.name}: ${error.message}`))
 })
-*/
 
 _client.on('guildDelete', async function (guild) {
     _logger.info(`Kicked from guild ${guild.name}`)
@@ -178,7 +176,7 @@ _client.on('guildDelete', async function (guild) {
         .catch(error => _logger.warn(`Could not delete data for guild with id ${guild.id}.`))
 })
 
-_client.on('error', async function name(error) {
+_client.on('error', async function (error) {
     _logger.error(`A discord-error ocurred: ${error.message}`)
 })
 
