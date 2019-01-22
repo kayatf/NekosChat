@@ -4,7 +4,7 @@ Discord chatbot which allows you to communicate with the [nekos.life](https://ne
 
 # System requirements
   - Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://npmjs.org)
-  - Installated redis-server (apt/redis-server)
+  - Installated redis-server (apt/[redis-server](http://vvv.tobiassjosten.net/linux/installing-redis-on-ubuntu-with-apt/))
 
 # Installation process
   - [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
