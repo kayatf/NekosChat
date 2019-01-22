@@ -3,8 +3,8 @@
 Discord chatbot which allows you to communicate with the [nekos.life](https://nekos.life) api endpoint `/api/v2/chat`. [(Invite)](https://discordapp.com/oauth2/authorize?client_id=528931005462085632&scope=bot&permissions=18432)
 
 # System requirements
-Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://npmjs.org)
-Installated redis-server (apt/redis-server)
+  - Unix like terminal with access to [NodeJS](http://nodejs.org) and [npm](http://npmjs.org)
+  - Installated redis-server (apt/redis-server)
 
 # Installation process
   - [Clone](https://help.github.com/articles/cloning-a-repository/) or [download](https://github.com/syntax-yt/NekosChat/archive/master.zip) the repository
